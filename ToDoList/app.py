@@ -1,6 +1,6 @@
 def task():
     tasks = [] #Empty list of tasks
-    print("\n -------------- Welcome to Task Manager App ---------------")
+    print("\n -------------- Welcome to To-Do-List App ---------------")
 
     total_tasks = int(input("Enter how many tasks you want to add : "))
     for i in range (1, total_tasks+1):
@@ -34,7 +34,7 @@ def task():
             print(f"Todays tasks are {tasks}") #Prints the tasks list
 
         elif operation == 5:
-            print("Closing Task manager...")
+            print("Closing To-Do-List...")
             break   #Loop ends and the program gets closed
         else:
             print("Invalid Input !!")
