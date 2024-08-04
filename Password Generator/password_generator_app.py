@@ -19,11 +19,11 @@ for i in range(1, n_letters+1):
     password += chars                
     
 for i in range(1, n_numbers+1):
-    chars = random.choice(numbers)      # Randomizing the letters list
+    chars = random.choice(numbers)      # Randomizing the numbers list
     password += chars
 
 for i in range(1, n_symbols+1):
-    chars = random.choice(symbols)      # Randomizing the letters list
+    chars = random.choice(symbols)      # Randomizing the symbols list
     password += chars 
 
 random.shuffle(password)    # using shuffle to shuffle the list
